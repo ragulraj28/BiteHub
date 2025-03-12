@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header'
-import CardWrapper from './components/card/CardWrapper'
+import CardWrapper from './components/cardWrapper/CardWrapper'
 import { resDetails } from './utils/data'
 
 const App = () => {
