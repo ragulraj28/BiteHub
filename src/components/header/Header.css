@@ -1,0 +1,30 @@
+
+header {
+
+    @apply shadow-sm sticky top-0 py-7 bg-white z-20;    
+
+    .container {
+
+        @apply flex justify-between items-center;
+
+        .logo {
+
+            @apply font-bold text-4xl text-green-700;
+            
+        }
+    
+        .nav-items {
+
+            @apply flex items-center gap-5 font-medium text-xl;
+
+            .nav-item {
+
+                @apply hover:text-green-700 cursor-pointer;
+
+            }
+
+        }
+
+    }
+
+}

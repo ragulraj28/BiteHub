@@ -1,0 +1,35 @@
+.card-wrapper {
+
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5;
+
+    .res-card {
+
+        @apply cursor-pointer;
+
+        figure {
+
+            @apply h-62 overflow-hidden rounded-lg;
+
+            img {
+
+                @apply object-cover h-full w-full transition-all duration-400 hover:scale-110;
+
+            }
+
+        }
+
+        .res-details {
+
+            @apply p-3 pb-0;
+
+            .res-name {
+
+                @apply capitalize text-xl font-bold truncate;
+
+            }
+
+        }
+        
+    }
+
+}
