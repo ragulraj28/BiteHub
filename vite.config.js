@@ -6,14 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),
-    {
-      name: 'full-reload-css',
-      handleHotUpdate({ file, server }) {
-        if (file.endsWith('.css')) {
-          server.ws.send({ type: 'full-reload' });
-        }
-      },
-    }
+    tailwindcss()
   ]
 })

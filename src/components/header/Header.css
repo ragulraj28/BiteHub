@@ -9,7 +9,7 @@ header {
 
         .logo {
 
-            @apply font-bold text-4xl text-green-700;
+            @apply font-bold text-4xl text-primary;
             
         }
     
@@ -19,7 +19,7 @@ header {
 
             .nav-item {
 
-                @apply hover:text-green-700 cursor-pointer;
+                @apply hover:text-primary cursor-pointer;
 
             }
 

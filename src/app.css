@@ -1,5 +1,6 @@
 @import "./components/header/Header.css";
 @import "./components/cardWrapper/CardWrapper.css";
+@import "./components/searchWrapper/SearchWrapper.css";
 
 * {
 
@@ -28,6 +29,12 @@ p {
 
     @apply px-5 mx-auto;
 
+}
+
+button {
+
+    @apply cursor-pointer;
+    
 }
 
 main {
