@@ -20,11 +20,23 @@
 
         .res-details {
 
-            @apply p-3 pb-0;
+            @apply p-3 pb-0 flex flex-col gap-0.5;
 
             .res-name {
 
                 @apply capitalize text-xl font-bold truncate;
+
+            }
+
+            .ratings {
+
+                @apply font-medium flex items-center gap-1;
+
+            }
+
+            .cuisines, .res-loc {
+
+                @apply text-gray-500;
 
             }
 
