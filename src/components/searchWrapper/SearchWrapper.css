@@ -4,19 +4,29 @@
 
     form {
 
-        @apply w-full max-w-2xl flex items-center border-2 border-gray-100 rounded-full overflow-hidden;
+        @apply w-full max-w-2xl flex items-center border-2 border-quaternary rounded-full overflow-hidden;
 
         input {
 
-            @apply  w-full py-2.5 px-5 outline-none placeholder:text-sm placeholder:tracking-wider;
+            @apply  w-full py-3 px-5 outline-none placeholder:text-tertiary placeholder:tracking-wider text-secondary;
 
         }
 
-        button {
+        .search {
+
+            svg {
+
+                @apply h-6 text-tertiary mr-4;
+
+            }
+
+        }
+
+        /* button {
 
             @apply bg-primary text-white px-7 py-2.5 font-medium;
 
-        }
+        } */
 
     }
 

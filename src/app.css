@@ -2,9 +2,9 @@
 @import "./components/cardWrapper/CardWrapper.css";
 @import "./components/searchWrapper/SearchWrapper.css";
 
-* {
+body {
 
-    @apply font-primary text-gray-700;
+    @apply font-primary bg-background;
 
 }
 
@@ -15,13 +15,13 @@ h4,
 h5,
 h6 {
 
-    @apply text-gray-800 font-semibold;
+    @apply text-secondary font-semibold;
 
 }
 
 p {
 
-    @apply text-gray-600 text-base;
+    @apply text-base;
 
 }
 

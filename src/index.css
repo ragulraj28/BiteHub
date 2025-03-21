@@ -7,4 +7,20 @@
 
     --font-primary: "Roboto", "sans-serif";
     --color-primary: #047857;
+    --color-secondary: #1F2937;
+    --color-tertiary: #6B7280;
+    --color-quaternary: #E5E7EB;
+    --color-background: white;
+    --color-white: white;
+}
+
+[data-theme="dark"] {
+
+    --color-background: #111827;
+    --color-primary: white;
+    --color-secondary: #E5E7EB;
+    --color-tertiary: #9CA3AF;
+    --color-quaternary: #4B5563;
+    --color-white: #1F2937;
+
 }

@@ -30,13 +30,13 @@
 
             .ratings {
 
-                @apply font-medium flex items-center gap-1;
+                @apply font-medium flex items-center gap-1 text-secondary;
 
             }
 
             .cuisines, .res-loc {
 
-                @apply text-gray-500;
+                @apply text-tertiary;
 
             }
 
