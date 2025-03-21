@@ -1,6 +1,6 @@
 .search-wrapper {
 
-    @apply container mx-auto px-5 mb-10 flex justify-center items-center ;
+    @apply container mx-auto px-5 mb-10 flex flex-col md:flex-row justify-center gap-5 md:gap-10 items-center ;
 
     form {
 
@@ -22,11 +22,53 @@
 
         }
 
-        /* button {
+    }
 
-            @apply bg-primary text-white px-7 py-2.5 font-medium;
+    .price-filter {
 
-        } */
+        @apply max-w-30 w-full;
+
+        .price {
+
+            @apply text-secondary;
+
+            span {
+
+                @apply text-tertiary text-sm;
+
+            }
+
+        }
+
+        .rc-slider {
+
+            @apply w-full mt-1;
+    
+            .rc-slider-rail {
+    
+                @apply h-2.5;
+    
+            }
+    
+            .rc-slider-track {
+    
+                @apply bg-primary h-2.5;
+    
+            }
+    
+            .rc-slider-handle {
+    
+                @apply border-primary h-5 w-5 -mt-1.5;
+    
+            }
+    
+            .rc-slider-handle-dragging {
+    
+                @apply border-primary shadow-primary;
+    
+            }
+    
+        }
 
     }
 
